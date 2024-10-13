@@ -1,0 +1,164 @@
+/* Global Style */
+. {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    color: rgb(22, 66, 52);
+    background-color: aliceblue;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+h1 {
+    color: #00698f;
+}
+
+button {
+    background-color: rgba(31, 89, 94, 0.342);
+    color: #fff;
+    border: 1px solid #ddd;;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6cb98c;
+}
+
+/ Home Page Styles /
+
+.home {
+    background-image: linear-gradient(to bottom, #333, #555);
+    background-size: 100% 300px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+/ Courses Page Styles /
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.course-card {
+    background-color: #0bd2e04f;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 1em;
+    width: calc(33.33% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/ Instructors Page Styles /
+
+.instructors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.instructor-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 1em;
+    width: calc(3333.33% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/ Blog Page Styles /
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.blog-post{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/ Contact Page Styles /
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #0097c5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0097c5;
+}
